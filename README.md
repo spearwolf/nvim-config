@@ -9,7 +9,7 @@ the easiest way is to clone this repo directly to `$HOME/.config/nvim/`
 if under windows you have to set the following environment variable:
 
 ```
-XDG_CONFIG_HOME=C:\Users\wsc\.config
+XDG_CONFIG_HOME=C:\Users\USERNAME\.config
 ```
 
 after setup you can install the dependencies (inside nvim) with: `:PlugInstall`.
