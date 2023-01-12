@@ -12,5 +12,7 @@ if under windows you have to set the following environment variable:
 XDG_CONFIG_HOME=C:\Users\wsc\.config
 ```
 
+after setup you can install the dependencies (inside nvim) with: `:PlugInstall`.
+
 have fun!
 :cherry_blossom:
