@@ -12,6 +12,7 @@ Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
 
 " TODO try https://github.com/nvim-telescope/telescope.nvim
+" TODO try https://github.com/Eandrju/cellular-automaton.nvim
 
 if exists('g:vscode')
   " VSCode extension
