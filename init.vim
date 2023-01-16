@@ -43,9 +43,7 @@ else
   "
   runtime! plug.d/nerdtree.vim
   runtime! plug.d/nerdcommenter.vim
-
-  set background=dark
-  colorscheme NeoSolarized
+  runtime! plug.d/colortheme.vim
 endif
 
 runtime! keys.vim
