@@ -26,6 +26,10 @@ else
 
   Plug 'preservim/nerdcommenter'
   " TODO try https://github.com/tpope/vim-commentary
+
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  Plug 'overcache/NeoSolarized'
 endif
 
 call plug#end()
@@ -39,6 +43,9 @@ else
   "
   runtime! plug.d/nerdtree.vim
   runtime! plug.d/nerdcommenter.vim
+
+  set background=dark
+  colorscheme NeoSolarized
 endif
 
 runtime! keys.vim
