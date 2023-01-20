@@ -52,4 +52,3 @@ set noerrorbells
 set belloff=all
 set novisualbell
 
-let mapleader = "`"

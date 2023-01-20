@@ -1,5 +1,8 @@
 set background=dark
 
-let g:neosolarized_contrast = "normal"
+" let g:neosolarized_contrast = "normal"
+" colorscheme NeoSolarized
 
-colorscheme NeoSolarized
+" colorscheme melange
+
+colorscheme onenord
