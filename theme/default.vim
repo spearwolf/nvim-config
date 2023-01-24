@@ -1,2 +1,1 @@
-set background=dark
-colorscheme afterglow
+colorscheme accent
