@@ -3,13 +3,16 @@
 if exists('g:neovide')
   set guifont=monospace:h16
 
-  " set lines=30
-  " set columns=110
+  set lines=30
+  set columns=110
   let g:neovide_remember_window_size = v:true
 
   let g:neovide_transparency = 0.9
   let g:neovide_cursor_vfx_mode = "railgun"
   let g:neovide_hide_mouse_when_typing = v:false
+
+  set background=dark
+  colorscheme afterglow
 
 endif
 
@@ -33,5 +36,9 @@ if exists('g:neovim_qt')
   inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
   xnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
   snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
+
+  " set background=dark
+  let g:accent_colour = 'green'
+  colorscheme accent
 
 endif

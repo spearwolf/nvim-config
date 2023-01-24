@@ -11,7 +11,10 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " colorshemes
-Plug 'overcache/NeoSolarized'
-Plug 'savq/melange-nvim'
-Plug 'rmehri01/onenord.nvim', { 'branch': 'main' }
-Plug 'marko-cerovac/material.nvim'
+" Plug 'overcache/NeoSolarized'
+" Plug 'savq/melange-nvim'
+" Plug 'rmehri01/onenord.nvim', { 'branch': 'main' }
+" Plug 'marko-cerovac/material.nvim'
+Plug 'danilo-augusto/vim-afterglow'
+Plug 'alligator/accent.vim'
+" Plug 't184256/vim-boring'
