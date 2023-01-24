@@ -22,9 +22,7 @@ runtime! keys.vim
 if empty($NVIM_THEME)
   runtime! theme/default.vim
 else
-  if filereadable('theme/'.$NVIM_THEME.'.vim')
-    runtime! theme/$NVIM_THEME.vim
-  endif
+  runtime! theme/$NVIM_THEME.vim
 endif
 
 if exists('g:neovide')
