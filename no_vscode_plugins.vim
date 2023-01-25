@@ -13,6 +13,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 
+" Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
+
 " colorshemes
 " Plug 'overcache/NeoSolarized'
 " Plug 'savq/melange-nvim'
@@ -21,4 +23,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'alligator/accent.vim'
 " Plug 't184256/vim-boring'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+
+Plug 'xiyaowong/nvim-transparent'
 

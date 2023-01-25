@@ -1,3 +1,5 @@
+let g:transparent_enabled = v:true
+
 " set background=dark
 
 " https://github.com/Alligator/accent.vim
@@ -11,7 +13,5 @@
 " let g:accent_colour = 'cyan'
 
 " colorscheme accent
-
-
 
 colorscheme afterglow
