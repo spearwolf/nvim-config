@@ -5,7 +5,10 @@ let mapleader = "`"
 map <silent> <A-x> <Leader>ci
 
 " <F3> NERD tree
-map <silent> <F3> <Esc>:NERDTreeToggle<CR>
+" map <silent> <F3> <Esc>:NERDTreeToggle<CR>
+
+" nvim-tree
+map <silent> <F3> <Esc>:NvimTreeFocus<CR>
 
 " Tabs
 map <silent> <M-S-t> <Esc>:tabnew<CR>
