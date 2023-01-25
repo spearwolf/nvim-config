@@ -8,7 +8,7 @@ map <silent> <A-x> <Leader>ci
 " map <silent> <F3> <Esc>:NERDTreeToggle<CR>
 
 " nvim-tree
-map <silent> <F3> <Esc>:NvimTreeFocus<CR>
+map <silent> <F3> <Esc>:NvimTreeToggle<CR>
 
 " Tabs
 map <silent> <M-S-t> <Esc>:tabnew<CR>
