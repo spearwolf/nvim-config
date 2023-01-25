@@ -1,7 +1,7 @@
 " vim:set ff=unix
 
 if exists('g:neovide')
-  set guifont=JetBrains\ Mono:h14
+  set guifont=Lilex\ NFM:h12
 
   " set lines=30
   " set columns=110
@@ -12,13 +12,14 @@ if exists('g:neovide')
   let g:neovide_hide_mouse_when_typing = v:false
 
   set background=dark
-  colorscheme afterglow
+  " colorscheme afterglow
+  colorscheme tokyonight-moon
 
 endif
 
 if exists('g:neovim_qt')
 
-  GuiFont! JetBrains\ Mono:h16
+  GuiFont! CaskaydiaCove\ NFM:h12
 
   GuiTabline 0
   GuiPopupmenu 0
