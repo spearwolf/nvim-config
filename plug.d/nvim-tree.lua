@@ -6,6 +6,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 require("nvim-tree").setup({
+  -- auto_close = true,
   sort_by = "case_sensitive",
   sync_root_with_cwd = true,
   view = {
@@ -22,10 +23,5 @@ require("nvim-tree").setup({
   },
   filters = {
     dotfiles = true,
-  },
-  actions = {
-    open_file = {
-      quit_on_open = true,
-    },
   },
 })
