@@ -10,6 +10,9 @@ Plug 'preservim/nerdtree'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+
 " colorshemes
 " Plug 'overcache/NeoSolarized'
 " Plug 'savq/melange-nvim'
@@ -18,3 +21,4 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'alligator/accent.vim'
 " Plug 't184256/vim-boring'
+

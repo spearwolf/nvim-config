@@ -23,6 +23,9 @@ set autoread
 " No need to show mode
 set noshowmode
 
+" Always show the signcolumn
+set signcolumn=yes
+
 " Tab settings
 set tabstop=2
 set shiftwidth=2
