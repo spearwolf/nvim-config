@@ -9,3 +9,5 @@ runtime! plug.d/coc.vim
 
 runtime! plug.d/lualine.lua
 
+runtime! plug.d/telescope.lua
+

@@ -1,7 +1,11 @@
-" TODO try https://github.com/nvim-telescope/telescope.nvim
+" https://github.com/nvim-telescope/telescope.nvim
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+
 " TODO try https://github.com/Eandrju/cellular-automaton.nvim
 
-" Plug 'kyazdani42/nvim-web-devicons'
 Plug 'nvim-tree/nvim-web-devicons'
 
 Plug 'preservim/nerdcommenter'
@@ -14,7 +18,6 @@ Plug 'nvim-tree/nvim-tree.lua'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'nvim-lualine/lualine.nvim'
-
 " Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 
 " --------------------------------------------------
