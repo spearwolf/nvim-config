@@ -1,6 +1,8 @@
 " https://github.com/nvim-telescope/telescope.nvim
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+if ! has('win32')
+  Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+endif
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 
@@ -19,6 +21,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'nvim-lualine/lualine.nvim'
 " Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
+
+Plug 'gennaro-tedesco/nvim-jqx'
 
 " --------------------------------------------------
 " colors

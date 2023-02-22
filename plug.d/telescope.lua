@@ -3,7 +3,9 @@ require('telescope').setup {
 
 -- To get fzf loaded and working with telescope, you need to call
 -- load_extension, somewhere after setup function:
-require('telescope').load_extension('fzf')
+if vim.fn.has('win32') == 0 then
+  require('telescope').load_extension('fzf')
+end
 
 local builtin = require('telescope.builtin')
 
