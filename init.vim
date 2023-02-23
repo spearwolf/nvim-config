@@ -15,6 +15,8 @@ call plug#end()
 
 if ! exists('g:vscode')
   runtime! no_vscode.vim
+else
+  runtime! vscode.vim
 endif
 
 runtime! keys.vim
