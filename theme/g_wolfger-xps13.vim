@@ -1,14 +1,19 @@
 " vim:set ff=unix
 
+set background=dark
+colorscheme afterglow
+" colorscheme tokyonight-moon
+
 if exists('g:neovide')
-  set guifont=monospace:h16
+  " set guifont=monospace:h12
+  set guifont=BlexMono\ Nerd\ Font\ Mono:h13
 
   let g:neovide_remember_window_size = v:false
 
   " set lines=35
   " set columns=120
 
-  let g:neovide_transparency = 0.75
+  let g:neovide_transparency = 0.8
 
   let g:neovide_floating_blur_amount_x = 2.0
   let g:neovide_floating_blur_amount_y = 2.0
@@ -17,15 +22,11 @@ if exists('g:neovide')
 
   let g:neovide_hide_mouse_when_typing = v:false
 
-  set background=dark
-  colorscheme afterglow
-  " colorscheme tokyonight-moon
-
 endif
 
 if exists('g:neovim_qt')
 
-  GuiFont! JetBrains\ Mono:h14
+  GuiFont! JetBrains\ Mono:h12
 
   GuiTabline 0
   GuiPopupmenu 0
@@ -43,9 +44,5 @@ if exists('g:neovim_qt')
   inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
   xnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
   snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
-
-  " set background=dark
-  let g:accent_colour = 'green'
-  colorscheme accent
 
 endif
