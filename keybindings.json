@@ -1,0 +1,77 @@
+// Geben Sie Ihre Tastenzuordnungen in dieser Datei ein, um die Standardwerte außer Kraft zu setzen.
+[
+  {
+    "key": "alt+f2",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "shift+ctrl+e",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "shift+ctrl+f",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "shift+ctrl+a",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "shift+ctrl+left",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "shift+ctrl+right",
+    "command": "-vscode-neovim.send"
+  }
+]
