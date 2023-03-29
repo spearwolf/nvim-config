@@ -41,8 +41,10 @@ set splitright
 set splitbelow
 
 " Minimal number of screen lines to keep above and below the cursor
-set scrolloff=3
-set sidescrolloff=5
+if ! exists('g:vscode')
+  set scrolloff=3
+  set sidescrolloff=5
+endif
 
 " Text display settings
 set formatoptions-=tcr
