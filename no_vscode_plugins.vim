@@ -36,6 +36,7 @@ Plug 'danilo-augusto/vim-afterglow'
 Plug 'alligator/accent.vim'
 " Plug 't184256/vim-boring'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'Mofiqul/dracula.nvim'
 
-Plug 'xiyaowong/nvim-transparent'
+" Plug 'xiyaowong/nvim-transparent'
 

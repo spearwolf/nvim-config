@@ -19,7 +19,8 @@ endif
 
 if exists('g:neovim_qt')
 
-  GuiFont! CaskaydiaCove\ NFM:h12
+  " GuiFont! CaskaydiaCove\ NFM:h11
+  GuiFont! JetBRains\ Mono:h11
 
   GuiTabline 0
   GuiPopupmenu 0
@@ -39,7 +40,9 @@ if exists('g:neovim_qt')
   snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
 
   " set background=dark
-  let g:accent_colour = 'red'
-  colorscheme accent
+  "let g:accent_colour = 'red'
+  "colorscheme accent
+
+  colorscheme dracula
 
 endif
