@@ -11,3 +11,4 @@ runtime! plug.d/lualine.lua
 
 runtime! plug.d/telescope.lua
 
+runtime! plug.d/treesitter.lua
