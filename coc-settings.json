@@ -1,0 +1,11 @@
+{
+  "tsserver.enable": true,
+  "tsserver.locale": "de",
+  "tsserver.useLocalTsdk": true,
+  "javascript.implementationsCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true
+}
