@@ -3,7 +3,7 @@ let g:transparent_enabled = v:true
 " let g:accent_colour = 'green'
 " colorscheme accent
 
-colorscheme dracula
+" colorscheme dracula
 
 " colorscheme afterglow
 
@@ -12,3 +12,5 @@ colorscheme dracula
 " colorscheme tokyonight-storm
 " colorscheme tokyonight-day
 " colorscheme tokyonight-moon
+
+colorscheme rose-pine
