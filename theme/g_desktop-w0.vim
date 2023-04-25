@@ -2,7 +2,8 @@
 
 " colorscheme afterglow
 " colorscheme tokyonight-moon
-colorscheme rose-pine
+" colorscheme rose-pine
+colorscheme falcon
 
 if exists('g:neovide')
   set guifont=Lilex\ NFM:h12

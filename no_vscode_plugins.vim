@@ -39,6 +39,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'Mofiqul/dracula.nvim'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'rose-pine/neovim'
+Plug 'fenetikm/falcon'
 
 " Plug 'xiyaowong/nvim-transparent'
 
