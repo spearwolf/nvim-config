@@ -15,7 +15,8 @@ if ! exists('g:vscode')
   " let g:accent_colour = 'cyan'
 
   " colorscheme accent
-
-  colorscheme afterglow
+  " colorscheme afterglow
+  " colorscheme catppuccin-mocha " catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+  colorscheme rose-pine
 
 endif

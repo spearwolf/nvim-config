@@ -3,13 +3,15 @@
 set background=dark
 " colorscheme afterglow
 " colorscheme tokyonight-moon
-colorscheme dracula
+" colorscheme dracula
+" colorscheme catppuccin-mocha " catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+colorscheme rose-pine
 
 if exists('g:neovide')
   " set guifont=monospace:h12
   set guifont=BlexMono\ Nerd\ Font\ Mono:h15
 
-  let g:neovide_remember_window_size = v:false
+  let g:neovide_remember_window_size = v:true
 
   " set lines=35
   " set columns=120

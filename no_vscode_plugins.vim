@@ -32,11 +32,13 @@ Plug 'gennaro-tedesco/nvim-jqx'
 " Plug 'savq/melange-nvim'
 " Plug 'rmehri01/onenord.nvim', { 'branch': 'main' }
 " Plug 'marko-cerovac/material.nvim'
-Plug 'danilo-augusto/vim-afterglow'
-Plug 'alligator/accent.vim'
+" Plug 'danilo-augusto/vim-afterglow'
+" Plug 'alligator/accent.vim'
 " Plug 't184256/vim-boring'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'Mofiqul/dracula.nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'rose-pine/neovim'
 
 " Plug 'xiyaowong/nvim-transparent'
 
