@@ -3,16 +3,18 @@
 " colorscheme afterglow
 " colorscheme tokyonight-moon
 " colorscheme rose-pine
-colorscheme falcon
+" colorscheme falcon
+" colorscheme nightfox
+colorscheme terafox
 
 if exists('g:neovide')
   set guifont=Lilex\ NFM:h12
 
   " set lines=30
   " set columns=110
-  let g:neovide_remember_window_size = v:true
+  let g:neovide_remember_window_size = v:false
 
-  let g:neovide_transparency = 0.9
+  let g:neovide_transparency = 0.97
   let g:neovide_cursor_vfx_mode = "railgun"
   let g:neovide_hide_mouse_when_typing = v:false
 endif
