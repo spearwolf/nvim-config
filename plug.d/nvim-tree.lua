@@ -103,7 +103,7 @@ require("nvim-tree").setup({
   sort_by = "case_sensitive",
   sync_root_with_cwd = true,
   view = {
-    side = "right",
+    side = "left",
     adaptive_size = true,
     mappings = {
       list = {
