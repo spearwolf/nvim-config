@@ -21,10 +21,12 @@ endif
 
 runtime! keys.vim
 
-if empty($NVIM_THEME)
-  runtime! theme/default.vim
-else
-  runtime! theme/$NVIM_THEME.vim
+if ! exists('g:vscode')
+  if empty($NVIM_THEME)
+    runtime! theme/default.vim
+  else
+    runtime! theme/$NVIM_THEME.vim
+  endif
 endif
 
 if exists('g:neovide')

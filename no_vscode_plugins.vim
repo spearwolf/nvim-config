@@ -10,8 +10,8 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 
 Plug 'nvim-tree/nvim-web-devicons'
 
-Plug 'preservim/nerdcommenter'
-" TODO try https://github.com/tpope/vim-commentary
+" Plug 'preservim/nerdcommenter'
+" https://github.com/tpope/vim-commentary
 
 " Plug 'preservim/nerdtree'
 Plug 'nvim-tree/nvim-tree.lua'
