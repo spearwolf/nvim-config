@@ -1,11 +1,11 @@
-" vim:set ff=unix
+let mapleader = "´"
 
 " colorscheme afterglow
 " colorscheme tokyonight-moon
 " colorscheme rose-pine
 " colorscheme falcon
-colorscheme nightfox
-" colorscheme terafox
+" colorscheme nightfox
+colorscheme terafox
 
 function! ToggleNeovideScaleFactor()
   if g:neovide_scale_factor == 1
@@ -30,7 +30,6 @@ if exists('g:neovide')
 endif
 
 if exists('g:neovim_qt')
-
   " GuiFont! CaskaydiaCove\ NFM:h11
   GuiFont! JetBRains\ Mono:h11
 

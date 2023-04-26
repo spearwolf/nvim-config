@@ -1,4 +1,4 @@
-let g:transparent_enabled = v:true
+let mapleader = "´"
 
 " colorscheme dracula
 
