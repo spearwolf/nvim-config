@@ -24,6 +24,9 @@ Plug 'nvim-lualine/lualine.nvim'
 
 Plug 'gennaro-tedesco/nvim-jqx'
 
+Plug 'folke/which-key.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
+
 " --------------------------------------------------
 " colors
 " --------------------------------------------------
