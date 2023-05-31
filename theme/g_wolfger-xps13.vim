@@ -5,7 +5,8 @@ set background=dark
 " colorscheme tokyonight-moon
 " colorscheme dracula
 " colorscheme catppuccin-mocha " catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
-colorscheme rose-pine
+" colorscheme rose-pine
+colorscheme terafox
 
 if exists('g:neovide')
   " set guifont=monospace:h12
