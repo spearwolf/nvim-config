@@ -1,8 +1,7 @@
-
-let mapleader = "`"
-
-" nvim-tree
-map <silent> <F3> <Esc>:NvimTreeToggle<CR>
+if ! exists('g:vscode')
+    " nvim-tree
+    map <silent> <F3> <Esc>:NvimTreeToggle<CR>
+endif
 
 " Tabs
 map <silent> <M-S-t> <Esc>:tabnew<CR>
@@ -15,5 +14,10 @@ map <silent> <C-S-c> "+y
 map <silent> <C-S-v> "+P
 imap <silent> <C-S-v> <Esc>l"+Pli
 
+" Home + End
+nmap <silent> <Home> gg
+nmap <silent> <End> G
+
+" other
 unmap! <C-w>
 

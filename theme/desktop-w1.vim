@@ -10,6 +10,9 @@ let mapleader = "´"
 
 " colorscheme rose-pine
 
-let g:falcon_background = 0
-let g:falcon_inactive = 1
-colorscheme falcon
+" let g:falcon_background = 0
+" let g:falcon_inactive = 1
+" colorscheme falcon
+
+runtime! theme/bamboo-transparent.lua
+colorscheme bamboo

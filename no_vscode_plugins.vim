@@ -44,6 +44,7 @@ Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'rose-pine/neovim'
 Plug 'fenetikm/falcon'
 Plug 'EdenEast/nightfox.nvim'
+Plug 'ribru17/bamboo.nvim'
 
 " Plug 'xiyaowong/nvim-transparent'
 

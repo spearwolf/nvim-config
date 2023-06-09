@@ -5,8 +5,8 @@ let mapleader = "´"
 " colorscheme rose-pine
 " colorscheme falcon
 " colorscheme nightfox
-" colorscheme terafox
-colorscheme carbonfox
+colorscheme terafox
+" colorscheme carbonfox
 
 function! ToggleNeovideScaleFactor()
   if g:neovide_scale_factor == 1

@@ -1,5 +1,7 @@
-" my personal nvim setup :)
+" my neovim setup!
 " created 2023/01/13 by wolfger@spearwolf.de
+
+let mapleader = ","
 
 runtime! common.vim
 
