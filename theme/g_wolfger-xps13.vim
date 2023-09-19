@@ -23,12 +23,16 @@ if exists('g:neovide')
   let g:neovide_floating_blur_amount_y = 2.0
 
   let g:neovide_cursor_vfx_mode = "railgun"
+  " let g:neovide_cursor_animation_length = 0.015
 
-  let g:neovide_hide_mouse_when_typing = v:false
+  let g:neovide_hide_mouse_when_typing = v:true
+
+  let g:neovide_refresh_rate = 60
+  let g:neovide_refresh_rate_idle = 60
 endif
 
 if exists('g:neovim_qt')
-  GuiFont! JetBrains\ Mono:h12
+  GuiFont! JetBrains\ Mono:h15
 
   GuiTabline 0
   GuiPopupmenu 0
