@@ -22,6 +22,17 @@ after setup you can install the dependencies (inside nvim) with: `:PlugInstall`.
 
 copy `keybindings.json` to `$HOME/AppData/Roaming/Code/keybdings.json`
 
+## 3. installl coc extensions
+
+[Using-coc-extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
+
+```
+:CocInstall coc-tsserver
+:CocInstall coc-json
+:CocInstall coc-eslint
+:CocInstall coc-prettier
+```
+
 ---
 
 have fun!
