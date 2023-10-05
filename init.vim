@@ -34,4 +34,3 @@ endif
 if exists('g:neovide')
   runtime! gui.vim
 endif
-
