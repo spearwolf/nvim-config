@@ -45,6 +45,8 @@ Plug 'rose-pine/neovim'
 Plug 'fenetikm/falcon'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'ribru17/bamboo.nvim'
+Plug 'savq/melange-nvim'
+Plug 'i3d/vim-jimbothemes'
 
 " Plug 'xiyaowong/nvim-transparent'
 

@@ -1,12 +1,27 @@
 let mapleader = "´"
 
+" ----------------------------------------------------------------
+
+" set background=light
+set background=dark
+
 " colorscheme afterglow
 " colorscheme tokyonight-moon
 " colorscheme rose-pine
 " colorscheme falcon
 " colorscheme nightfox
-colorscheme terafox
+" colorscheme terafox
 " colorscheme carbonfox
+" colorscheme melange
+
+" colorscheme ironman_dark
+" colorscheme topology
+" colorscheme matrix
+" colorscheme superman
+" colorscheme cold
+colorscheme cody
+
+" ----------------------------------------------------------------
 
 function! ToggleNeovideScaleFactor()
   if g:neovide_scale_factor == 1
@@ -32,7 +47,8 @@ endif
 
 if exists('g:neovim_qt')
   " GuiFont! CaskaydiaCove\ NFM:h11
-  GuiFont! JetBRains\ Mono:h11
+  " GuiFont! JetBrains\ Mono:h11
+  GuiFont! JetBrains\ Mono\ Medium:h11
 
   GuiTabline 0
   GuiPopupmenu 0

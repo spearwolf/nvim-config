@@ -1,5 +1,7 @@
 let mapleader = "´"
 
+set termguicolors
+
 " colorscheme dracula
 
 " colorscheme tokyonight
@@ -14,5 +16,11 @@ let mapleader = "´"
 " let g:falcon_inactive = 1
 " colorscheme falcon
 
-runtime! theme/bamboo-transparent.lua
-colorscheme bamboo
+" runtime! theme/bamboo-transparent.lua
+" colorscheme bamboo
+
+" colorscheme melange
+
+" colorscheme ironman_dark
+" colorscheme matrix
+colorscheme batman
