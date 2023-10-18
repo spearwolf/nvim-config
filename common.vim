@@ -64,5 +64,3 @@ set noerrorbells
 set belloff=all
 set novisualbell
 
-" clipboard
-set clipboard=unnamed,unnamedplus
