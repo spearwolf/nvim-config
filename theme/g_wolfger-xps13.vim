@@ -4,9 +4,9 @@ set background=dark
 " colorscheme afterglow
 " colorscheme tokyonight-moon
 " colorscheme dracula
-" colorscheme catppuccin-mocha " catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+colorscheme catppuccin-mocha " catppuccin, catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
 " colorscheme rose-pine
-colorscheme terafox
+" colorscheme terafox
 
 if exists('g:neovide')
   " set guifont=monospace:h12
