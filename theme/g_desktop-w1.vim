@@ -50,31 +50,33 @@ if exists('g:neovide')
   set background=dark
   " colorscheme tokyonight-moon
   " colorscheme rose-pine
+  " colorscheme cyberpunk
+  " colorscheme silverhand
   colorscheme 2077
 endif
 
-if exists('g:neovim_qt')
-  " GuiFont! CaskaydiaCove\ NFM:h11
-  " GuiFont! JetBrains\ Mono:h11
-  GuiFont! JetBrains\ Mono\ Medium:h11
+" if exists('g:neovim_qt')
+"   " GuiFont! CaskaydiaCove\ NFM:h11
+"   " GuiFont! JetBrains\ Mono:h11
+"   GuiFont! JetBrains\ Mono\ Medium:h11
 
-  GuiTabline 0
-  GuiPopupmenu 0
-  GuiScrollBar 0
+"   GuiTabline 0
+"   GuiPopupmenu 0
+"   GuiScrollBar 0
 
-  " GuiWindowOpacity 0.95
+"   " GuiWindowOpacity 0.95
 
-  GuiAdaptiveColor 1
-  GuiAdaptiveStyle Fusion
+"   GuiAdaptiveColor 1
+"   GuiAdaptiveStyle Fusion
 
-  GuiRenderLigatures 1
+"   GuiRenderLigatures 1
 
-  " Right Click Context Menu (Copy-Cut-Paste)
-  nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
-  inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
-  xnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
-  snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
+"   " Right Click Context Menu (Copy-Cut-Paste)
+"   nnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>
+"   inoremap <silent><RightMouse> <Esc>:call GuiShowContextMenu()<CR>
+"   xnoremap <silent><RightMouse> :call GuiShowContextMenu()<CR>gv
+"   snoremap <silent><RightMouse> <C-G>:call GuiShowContextMenu()<CR>gv
 
-  set background=dark
-  colorscheme rose-pine
-endif
+"   set background=dark
+"   colorscheme rose-pine
+" endif
