@@ -1,6 +1,7 @@
 if ! exists('g:vscode')
     " nvim-tree
     map <silent> <F3> <Esc>:NvimTreeToggle<CR>
+    nmap <silent> <F5> <Esc>:cd %:p:h<CR>:pwd<CR>
 endif
 
 " Tabs

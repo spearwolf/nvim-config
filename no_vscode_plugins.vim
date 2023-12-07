@@ -47,6 +47,8 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'ribru17/bamboo.nvim'
 Plug 'savq/melange-nvim'
 Plug 'i3d/vim-jimbothemes'
+Plug 'thedenisnikulin/vim-cyberpunk'
+Plug 'akai54/2077.nvim'
 
 " Plug 'xiyaowong/nvim-transparent'
 
