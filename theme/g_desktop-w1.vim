@@ -47,12 +47,15 @@ if exists('g:neovide')
 
   map <silent> <F4> <Esc>:call ToggleNeovideScaleFactor()<CR>
 
-  set background=dark
+  " set background=dark
   " colorscheme tokyonight-moon
   " colorscheme rose-pine
   " colorscheme cyberpunk
   " colorscheme silverhand
-  colorscheme 2077
+  " colorscheme 2077
+
+  set background=light
+  colorscheme onenord-light
 endif
 
 " if exists('g:neovim_qt')

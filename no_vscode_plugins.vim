@@ -49,6 +49,7 @@ Plug 'savq/melange-nvim'
 Plug 'i3d/vim-jimbothemes'
 Plug 'thedenisnikulin/vim-cyberpunk'
 Plug 'akai54/2077.nvim'
+Plug 'rmehri01/onenord.nvim'
 
 " Plug 'xiyaowong/nvim-transparent'
 
