@@ -20,4 +20,4 @@ nmap <silent> <Home> gg
 nmap <silent> <End> G
 
 " other
-unmap! <C-w>
+" unmap! <C-w>
