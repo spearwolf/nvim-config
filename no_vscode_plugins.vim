@@ -3,8 +3,8 @@ Plug 'nvim-lua/plenary.nvim'
 if ! has('win32')
   Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 endif
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate', 'tag': 'v0.9.2' }
+Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
 
 " TODO try https://github.com/Eandrju/cellular-automaton.nvim
 
