@@ -34,7 +34,7 @@ endfunction
 if exists('g:neovide')
   " set guifont=Lilex\ Nerd\ Font\ Mono:h12
   " set guifont=JetBrains\ Mono\ Medium:h10
-  set guifont=Inconsolata\ Nerd\ Font\ Mono:h13
+  set guifont=Inconsolata\ Nerd\ Font\ Mono:h14
 
   " set lines=30
   " set columns=100
@@ -45,17 +45,21 @@ if exists('g:neovide')
   let g:neovide_hide_mouse_when_typing = v:false
   let g:neovide_remember_window_size = v:true
 
+  let g:neovide_refresh_rate = 120
+  let g:neovide_no_idle = v:true
+
   map <silent> <F4> <Esc>:call ToggleNeovideScaleFactor()<CR>
 
-  " set background=dark
+  set background=dark
   " colorscheme tokyonight-moon
   " colorscheme rose-pine
   " colorscheme cyberpunk
   " colorscheme silverhand
   " colorscheme 2077
+  colorscheme cyberdream
 
-  set background=light
-  colorscheme onenord-light
+  " set background=light
+  " colorscheme onenord-light
 endif
 
 " if exists('g:neovim_qt')

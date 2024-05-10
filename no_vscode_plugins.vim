@@ -50,6 +50,9 @@ Plug 'i3d/vim-jimbothemes'
 Plug 'thedenisnikulin/vim-cyberpunk'
 Plug 'akai54/2077.nvim'
 Plug 'rmehri01/onenord.nvim'
+Plug 'scottmckendry/cyberdream.nvim'
+Plug 'navarasu/onedark.nvim'
+Plug 'rebelot/kanagawa.nvim'
 
 " Plug 'xiyaowong/nvim-transparent'
 
