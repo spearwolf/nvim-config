@@ -15,6 +15,8 @@ call plug#begin()
 
 call plug#end()
 
+runtime! plug.d/mini-surround.lua
+
 if ! exists('g:vscode')
   runtime! no_vscode.vim
 else

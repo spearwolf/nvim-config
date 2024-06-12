@@ -21,3 +21,11 @@ nmap <silent> <End> G
 
 " other
 " unmap! <C-w>
+
+" sneak
+map <leader>s <Plug>Sneak_s
+map f <Plug>Sneak_f
+map F <Plug>Sneak_F
+map t <Plug>Sneak_t
+map T <Plug>Sneak_T
+
