@@ -2,13 +2,13 @@ if ! exists('g:vscode')
     " nvim-tree
     map <silent> <F3> <Esc>:NvimTreeToggle<CR>
     nmap <silent> <F5> <Esc>:cd %:p:h<CR>:pwd<CR>
-endif
 
-" Tabs
-map <silent> <M-S-t> <Esc>:tabnew<CR>
-map <silent> <M-S-w> <Esc>:tabclose<CR>
-map <silent> <M-S-Left> <Esc>:tabprevious<CR>
-map <silent> <M-S-Right> <Esc>:tabnext<CR>
+    " Tabs
+    map <silent> <M-S-t> <Esc>:tabnew<CR>
+    map <silent> <M-S-w> <Esc>:tabclose<CR>
+    map <silent> <M-S-Left> <Esc>:tabprevious<CR>
+    map <silent> <M-S-Right> <Esc>:tabnext<CR>
+endif
 
 " Copy'n'Paste
 map <silent> <C-S-c> "+y
