@@ -27,6 +27,8 @@ Plug 'gennaro-tedesco/nvim-jqx'
 Plug 'folke/which-key.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 
+Plug 'andrewferrier/debugprint.nvim'
+
 " --------------------------------------------------
 " colors
 " --------------------------------------------------
