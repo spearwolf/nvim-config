@@ -1,3 +1,5 @@
+❗ this is the _old_ neovim config - see [spearwolf/nvim-config-next](https://github.com/spearwolf/nvim-config-next) for the _latest_ neovim config ❗
+
 # nvim-config
 
 _my personal, very minimal neovim config_ :blush:
@@ -36,4 +38,4 @@ copy `keybindings.json` to `$HOME/AppData/Roaming/Code/keybdings.json`
 ---
 
 have fun!
-:cherry_blossom:
+🌸
